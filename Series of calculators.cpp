@@ -1,3 +1,4 @@
+include <iostream>
 
 int main(){
     int count, num1, num2, total;
@@ -6,7 +7,7 @@ int main(){
     std::cout << "Do you want to add two numbers? Y/N: ";
     std::cin >> continuar;
 
-    while (continuar == 'Y'|| 'y'){
+    while (continuar == 'Y' || 'y'){
 
         std::cout << "what's the first number?: " << std::endl;
         std::cin >> num1;
@@ -17,6 +18,7 @@ int main(){
 
         std::cout << num1 << "+" << num2 << "=" << total;
         std::cout << "Continue?: Y/N: " << std::endl;
+        std::cin >> continuar;
 
         count = count++;
     }
