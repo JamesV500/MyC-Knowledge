@@ -2,14 +2,14 @@
 #include <cmath>
 
 int main(){
-    int count, num1, num2, total;
+    int count = 0, num1, num2, total;
     char continuar;
 
     std::cout << "Do you want to add two numbers? Y/N: ";
     std::cin >> continuar;
 
     while (continuar == 'y' || continuar == 'Y'){
-            count == 0;
+            
 
             std::cout << "what's the first number?: " << std::endl;
             std::cin >> num1;
